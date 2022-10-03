@@ -1,0 +1,35 @@
+.body {
+  margin: 0px;
+  padding: 0%;
+}
+.head {
+  background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+  height: 700px;
+  background-size: cover;
+}
+.head .list ul {
+  display: flex;
+  gap: 40px;
+  float: right;
+  text-decoration: none;
+  text-align: center;
+}
+.egg {
+  background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg);
+  height: 40vh;
+  width: 500px;
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin-right: 100px;
+}
+.crt {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  padding-top: 60px;
+}
+.flexx {
+  display: flex;
+  gap: 300px;
+}

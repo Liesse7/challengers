@@ -1,6 +1,6 @@
 .body {
   margin: 0px;
-  padding: 0%;
+  padding: 0px;
 }
 .head {
   background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
@@ -12,12 +12,12 @@
   gap: 40px;
   float: right;
   text-decoration: none;
-  text-align: center;
+  padding-bottom: 50px;
 }
 .egg {
   background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg);
-  height: 40vh;
-  width: 500px;
+  height: 50vh;
+  width: 590px;
   background-repeat: no-repeat;
   padding: 0px;
   margin-right: 100px;
@@ -31,5 +31,50 @@
 }
 .flexx {
   display: flex;
+  gap: 400px;
+}
+.cup {
+  background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg);
+  height: 50vh;
+  width: 590px;
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin-right: 100px;
+}
+.cupstand {
+  display: flex;
+}
+.cheer {
+  background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+  height: 50vh;
+  width: 590px;
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin-right: 100px;
+}
+.orange {
+  background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+  height: 50vh;
+  width: 590px;
+  background-repeat: no-repeat;
+}
+.change {
+  display: flex;
+  gap: 0;
+}
+.client {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.687);
+}
+.all {
+  display: flex;
   gap: 300px;
+}
+.photo {
+  border-radius: 500px;
+}
+.code {
+  display: inline;
 }
